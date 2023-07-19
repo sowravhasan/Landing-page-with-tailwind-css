@@ -1,9 +1,13 @@
 @media (max-width:780px){
     .container{
         width: 90%;
+        margin: 0 auto;
     }
     .logo{
         justify-content: center;
+    }
+    .header{
+        box-shadow: none; 
     }
     .navbar{
         flex-direction: column;
@@ -42,6 +46,9 @@
       .image-row {
         flex-direction: column;
     }
+    .image-item {
+        width: 100%;
+    }
     .image-row img {
         width: 100%;
         margin-top: 40px;
@@ -73,10 +80,14 @@
      }
      .career-left-content{
         width: 100%;
-        text-align: center;
+        text-align: left;
+        padding-left: 0px;
     }
     .career-right-content{
         width: 100%;
         text-align: center;
+    }
+    .icon{
+        width: 25%;
     }
 }
