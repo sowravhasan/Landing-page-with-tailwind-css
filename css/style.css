@@ -415,14 +415,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
-    line-height: 100px;
+    width: 18%;
     background: #fff;
+    padding: 6px 12px;
+    border-radius: 50px;
+    transition: .2s;
+}
+.icon:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
 }
 .icon img{
     width: 40px;
