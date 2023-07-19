@@ -196,33 +196,6 @@ body{
     margin: 0;
     padding: 0;
   }
- /* banner css end */
-
-
- /* online game section css */
- /* .online-game{
-    padding: 50px 0px 50px 0px;
-    text-align: center;
- }
- .section-heading h2{
-    margin-bottom: 10px;
-    font-size: 40px;
- }
- .section-heading p{
-    margin-bottom: 40px;
- }
-.image-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.image-row img {
-    width: 23%;
-    margin-right: 20px;
-}
- */
 
 .online-game {
     padding: 50px 0;
@@ -548,7 +521,7 @@ body{
     margin-top: 40px;
 }
 .bottom-menu li{
-    margin-left: 30px;
+    padding: 0px 10px;
 }
 .social-icon{
     display: flex;
@@ -557,7 +530,7 @@ body{
     margin-top: 40px;
 }
 .social-icon li{
-    margin-left: 30px;
+    padding: 0px 10px;
 }
 .policy-list{
     display: flex;
@@ -566,7 +539,7 @@ body{
     margin-top: 40px;
 }
 .policy-list li{
-    margin-left: 30px;
+    padding: 0px 10px;
 }
 .copywright-text{
     margin-top: 40px;
