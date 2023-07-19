@@ -1,0 +1,491 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* default css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+/* header css */
+.header{
+    padding: 20px 0px 20px 0px;
+    background-color: #fff;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 65px;
+    margin-right: 10px;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo p span{
+    color: #FF42A5;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.nav-item .button1{
+    background-color: #E7E6E9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+.button1 .youtube{
+    color: red;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.button1 .tiktok{
+    font-size: 18px;
+    margin-left: 15px;
+}
+/* header css end */
+/* banner css start */
+.banner{
+   width: 100%;
+   height: auto;
+}
+.banner-content{
+   display: flex;
+   align-items: center;
+   padding-top: 50px;
+}
+.left-content{
+    width: 50%;
+    text-align: left;
+}
+.left-content h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.left-content h2 span{
+    font-size: 75px;
+    font-weight: 700;
+}
+.left-content ul{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.left-content ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.left-content ul li i{
+    margin-right: 10px;
+    color: #8758F1;
+}
+.left-content button{
+    background-color: #FF42A5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 50px;
+    color: #fff;
+}
+.gorogue{
+    background-color: #4EC5F7 !important;
+    margin-left: 10px;
+}
+.right-content{
+    width: 50%;
+    text-align: right;
+}
+.right-content img{
+    width: 100%;
+    max-width: 600px;
+}
+.banner-content .gradient-text {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* banner css end */
+
+/* second banner css start */
+.second-banner{
+    width: 100%;
+    height: auto;
+    background: #FFF9FC;
+    padding: 50px 0px 50px 0px;
+ }
+ .second-banner-content{
+    display: flex;
+    align-items: center;
+ }
+ .banner-left-content{
+    width: 70%;
+    text-align: left;
+}
+.banner-left-content img{
+    width: 100%;
+    max-width: 600px;
+}
+ .banner-right-content{
+     width: 30%;
+     text-align: right;
+ }
+ .banner-right-content h2{
+     font-size: 35px;
+     font-weight: 600;
+ }
+ .banner-right-content p{
+    margin: 20px 0px 20px 0px;
+    font-weight: 300;
+ }
+ .banner-right-content button{
+     background-color: #FF42A5;
+     border: none;
+     padding: 10px 20px;
+     font-size: 13px;
+     font-weight: 600;
+     border-radius: 50px;
+     color: #fff;
+ }
+ .second-banner-content .gradient-text {
+     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .quote-container {
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .quote-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+ /* banner css end */
+
+
+ /* online game section css */
+ .online-game{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+ }
+ .section-heading h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+ }
+ .section-heading p{
+    margin-bottom: 40px;
+ }
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-row img {
+    width: 23%;
+    margin-right: 20px;
+}
+.section-heading .gradient-text {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+ /* play games start */
+
+
+.play-games{
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+ }
+ .play-games-content{
+    display: flex;
+    align-items: center;
+ }
+ .play-games-left-content{
+     width: 30%;
+     text-align: right;
+ }
+ .play-games-left-content h2{
+     font-size: 35px;
+     font-weight: 600;
+ }
+ .play-games-left-content p{
+    margin: 20px 0px 20px 0px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .play-games-left-content button{
+     background-color: #FF42A5;
+     border: none;
+     padding: 10px 20px;
+     font-size: 14px;
+     font-weight: normal;
+     border-radius: 50px;
+     color: #fff;
+ }
+ .play-games-right-content{
+    width: 70%;
+    text-align: right;
+    position: relative;
+}
+.play-games-right-content img{
+    width: 100%;
+    max-width: 600px;
+}
+.inner-img{
+    position: absolute;
+    left: 150px;
+    bottom: -80px;
+}
+.inner-img img{
+    width: 100%;
+    max-width: 250px;
+}
+ .play-games-left-content .gradient-text {
+     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ /* play games end */
+
+ /* play games 2 */
+ .play-games2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+ }
+ .play-games2-content{
+    display: flex;
+    align-items: center;
+ }
+ .play-games2-left-content{
+     width: 30%;
+     text-align: left;
+ }
+ .play-games2-left-content h2{
+     font-size: 35px;
+     font-weight: 600;
+ }
+ .play-games2-left-content p{
+    margin: 20px 0px 20px 0px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .play-games2-left-content button{
+     background-color: #FF42A5;
+     border: none;
+     padding: 10px 20px;
+     font-size: 14px;
+     font-weight: normal;
+     border-radius: 50px;
+     color: #fff;
+ }
+ .play-games2-right-content{
+    width: 70%;
+    text-align: left;
+    position: relative;
+}
+.play-games2-right-content img{
+    width: 100%;
+    max-width: 600px;
+}
+.inner-img2{
+    position: absolute;
+    right: 150px;
+    bottom: -80px;
+}
+.inner-img2 img{
+    width: 100%;
+    max-width: 250px;
+}
+ .play-games2-left-content .gradient-text {
+     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ /* career css start */
+ .career{
+    width: 100%;
+    height: auto;
+    background-color: #FF42A5;
+ }
+ .career-content{
+    display: flex;
+    align-items: center;
+ }
+ .career-left-content{
+     width: 50%;
+     text-align: left;
+     padding-left: 10%;
+     color: #fff;
+ }
+ .career-content h2{
+     font-size: 35px;
+     font-weight: 600;
+ }
+ .career-content p{
+    margin: 20px 0px 20px 0px;
+    font-weight: 300;
+ }
+ .career-left-content button{
+     background-color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 13px;
+     font-weight: 600;
+     border-radius: 50px;
+     color: #FF42A5;
+     margin-top: 30px;
+ }
+ .career-right-content{
+    width: 50%;
+    text-align: right;
+}
+.career-right-content img{
+    width: 100%;
+    max-width: 600px;
+}
+ .second-banner-content .gradient-text {
+     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .careear-list{
+    display: flex;
+    margin-top: 30px;
+ }
+.careear-list li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.careear-list .right-list{
+    text-align: right;
+}
+ /* career css end */
+/* icon section */
+.icon-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px 100px 0px;
+    background: #FFF9FC;
+}
+.icon-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    line-height: 100px;
+    background: #fff;
+}
+.icon img{
+    width: 40px;
+    margin-right: 10px;
+}
+/* footer css */
+.footer{
+    background-color: #0B0223;
+    padding: 100px 0px 100px 0px;
+}
+.bottom-logo{display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+.bottom-logo img{
+    width: 65px;
+    margin-right: 10px;
+}
+.bottom-logo p{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.bottom-logo p span{
+    color: #FF42A5;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
+.bottom-menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.bottom-menu li{
+    margin-left: 30px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.social-icon li{
+    margin-left: 30px;
+}
+.policy-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.policy-list li{
+    margin-left: 30px;
+}
+.copywright-text{
+    margin-top: 40px;
+}
