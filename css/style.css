@@ -530,13 +530,18 @@ body{
     margin-top: 40px;
 }
 .social-icon li{
+    margin-bottom: 37px;
+    width: 26%;
     padding: 0px 10px;
+}
+.social-icon li a i{
+    font-size: 25px;
 }
 .policy-list{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .policy-list li{
     padding: 0px 10px;

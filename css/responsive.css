@@ -93,6 +93,150 @@
         width: 25%;
     }
     .overlay {
+       position: absolute;
+       top: 37px;
+       left: 222px;
+       width: 36%;
+       height: 88%;
+       background-color: rgba(0, 0, 0, 0.6);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       opacity: 0;
+       transition: opacity 0.3s ease;
+       border-radius: 10px;
+      }
+      .image-item p {
+        text-align: center;
+    }
+      .bottom-menu{
+        gap: 20px;
+    }
+    .policy-list{
+        gap: 20px;
+    }
+    .icon {
+        width: 30%; 
+        margin: 5px; 
+        flex: 1;
+      }
+      .icon-content {
+        flex-wrap: wrap; 
+      }
+      .play-games-right-content img{
+        max-width: 500px;
+    }
+    .inner-img{
+        position: absolute;
+        left: 420px;
+        bottom: -120px;
+    }
+    .play-games2-right-content img{
+        max-width: 500px;
+    }
+    .inner-img2{
+        position: absolute;
+        right: 420px;
+        bottom: -120px;
+    }
+}
+
+/* mobile device */
+@media (max-width:426px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .header{
+        box-shadow: none; 
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-item{
+        flex-direction: column;
+    }
+    .nav-item a{
+        margin-top: 20px;
+    }
+    .banner-content{
+        flex-direction: column;
+     }
+     .left-content{
+        width: 100%;
+        text-align: center;
+    }
+    .right-content{
+        width: 100%;
+        text-align: center;
+    }
+    .second-banner-content{
+        flex-direction: column;
+    }
+    .banner-left-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-right-content{
+        width: 100%;
+        text-align: center;
+    }
+    .quote-text {
+        text-align: center;
+      }
+      .image-row {
+        flex-direction: column;
+    }
+    .image-item {
+        width: 100%;
+    }
+    .image-row img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .play-games-content{
+        flex-direction: column;
+     }
+     .play-games-left-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-games-right-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-games2-content{
+        flex-direction: column;
+     }
+     .play-games2-left-content{
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .play-games2-right-content{
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .career-content{
+        flex-direction: column;
+     }
+     .career-left-content{
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+    .career-right-content{
+        width: 100%;
+        text-align: center;
+    }
+    .icon{
+        width: 25%;
+    }
+    .overlay {
         position: absolute;
         top: 37px;
         left: 65px;
@@ -120,6 +264,22 @@
       .icon-content {
         flex-wrap: wrap; 
       }
+      .play-games-right-content img{
+        max-width: 300px;
+    }
+    .inner-img{
+        position: absolute;
+        left: 250px;
+        bottom: -60px;
+    }
+    .play-games2-right-content img{
+        max-width: 300px;
+    }
+    .inner-img2{
+        position: absolute;
+        right: 250px;
+        bottom: -60px;
+    }
 }
 
     
