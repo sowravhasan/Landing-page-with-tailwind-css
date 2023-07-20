@@ -291,6 +291,11 @@
         right: 250px;
         bottom: -60px;
     }
+    .social-icon li{
+        margin-bottom: 37px;
+        width: 26%;
+        padding: 0px 10px;
+    }
 }
 
     
